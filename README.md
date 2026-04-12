@@ -1,87 +1,129 @@
-# IT Help Desk Lab – osTicket
+# 🛠️ IT Help Desk Lab – osTicket (Ticketing System)
 
-## 📌 Overview
-
-This project simulates a real-world IT help desk environment using osTicket deployed on a virtual machine.
-It demonstrates ticket lifecycle management, escalation procedures, SLA handling, and incident resolution.
+> Simulated real-world IT help desk operations using osTicket, including incident triage, escalation, SLA management, and resolution.
 
 ---
 
-## 🛠️ Technologies Used
+## 📌 Project Overview
 
-* Microsoft Azure (Virtual Machine)
-* Windows 10
-* osTicket (Help Desk Ticketing System)
-* Remote Desktop Protocol (RDP)
+This project demonstrates hands-on experience with a help desk ticketing system using **osTicket** in a simulated production environment.
 
----
-
-## 🎯 Skills Demonstrated
-
-* Ticket triage and prioritization
-* SLA management and escalation
-* User and role administration
-* Incident troubleshooting and resolution
-* Internal documentation and communication
+I created and managed tickets, assigned roles, configured SLAs, and handled a critical system outage from start to finish—just like in a real IT support role.
 
 ---
 
-## 🚨 Case Studies
+## 🧰 Technologies Used
 
-### 🔴 Critical Incident: Banking System Outage
-
-* Entire online banking system went down
-* Priority escalated to **Emergency**
-* Ticket routed to **SysAdmins**
-* Root cause identified and resolved
-* System verified and ticket closed
-
-➡️ See full breakdown:
-[Banking Outage Case Study](case-studies/banking-outage.md)
+- Microsoft Azure (Virtual Machines)
+- Windows 10
+- osTicket (Help Desk Ticketing System)
+- Remote Desktop Protocol (RDP)
 
 ---
 
-### 🟡 User Issue: Adobe Reader Not Working
+## 💼 Real-World Skills Applied
 
-* Issue affecting accounting users
-* Diagnosed as software-related problem
-* Simulated troubleshooting workflow
-
-➡️ See full breakdown:
-[Adobe Issue Case Study](case-studies/adobe-issue.md)
-
----
-
-## 📸 Screenshots
-
-All screenshots are from my own lab environment and document:
-
-* System setup
-* Role and permission configuration
-* Ticket creation and escalation
-* Incident resolution process
+- Ticket triage based on business impact
+- Priority escalation (Normal → Emergency)
+- SLA assignment and enforcement
+- Department-based ticket routing
+- Role-based access control (RBAC)
+- Internal documentation (notes + updates)
+- Incident escalation to SysAdmin team
+- End-user communication and issue verification
 
 ---
 
-## 🧠 What I Learned
+## 🏗️ Lab Setup
 
-* How IT support teams manage incidents in real environments
-* The importance of prioritization and escalation
-* Proper documentation of troubleshooting steps
+- Deployed a Windows VM in Azure
+- Installed and configured osTicket
+- Created roles, departments, and teams
+- Configured SLA plans (Sev-A, Sev-B, Sev-C)
+- Set up users and agents with different permission levels
 
-## 🚨 Ticket Lifecycle – Banking Outage
+---
 
-### 1. Ticket Created
-![Created](screenshots/tickets/01-created.png)
+## 🧪 Incident Walkthrough: Banking System Outage
 
-### 2. Priority Set
-![Priority](screenshots/tickets/03-priority.png)
+### 🟢 1. Ticket Created by End User
+User reports that the entire mobile/online banking system is down.
 
-### 3. Escalation
+![Ticket Created](screenshots/tickets/01-created.png)
+
+---
+
+### 🔴 2. Priority Escalated to Emergency
+After confirming impact, ticket priority is raised to **Emergency**.
+
+![Priority Update](screenshots/tickets/03-priority.png)
+
+---
+
+### ⏱️ 3. SLA Updated
+SLA changed to **Sev-A (1 hour response time)** to reflect critical outage.
+
+![SLA Update](screenshots/tickets/04-sla.png)
+
+---
+
+### 🔁 4. Escalated to SysAdmins
+Ticket is routed to the **SysAdmins department** for advanced troubleshooting.
+
 ![Escalation](screenshots/tickets/05-escalated.png)
 
-### 4. Resolution
-![Resolved](screenshots/tickets/07-resolved.png)
+---
 
-### 5. Closed
-![Closed](screenshots/tickets/08-closed.png)
+### 🛠️ 5. Issue Identified and Resolved
+Root cause identified: backend server misconfiguration during business hours.
+
+System restarted and functionality restored.
+
+![Resolution](screenshots/tickets/07-resolved.png)
+
+---
+
+### ✅ 6. Ticket Closed
+Confirmed with end user that system is working. Ticket closed successfully.
+
+![Closed Ticket](screenshots/tickets/08-closed.png)
+
+---
+
+## 🗂️ Repository Structure
+screenshots/
+├── agents/
+├── roles/
+├── departments/
+├── tickets/
+├── sla/
+
+---
+
+## 📈 What This Project Demonstrates
+
+This lab simulates a real IT support workflow and demonstrates:
+
+- Ability to manage and resolve incidents
+- Understanding of ticketing systems and workflows
+- Knowledge of escalation procedures
+- Experience working with SLAs and priorities
+- Strong documentation and communication skills
+
+---
+
+## 🎯 Next Steps
+
+I am currently expanding my skills with:
+
+- Active Directory (User & Group Management)
+- Networking fundamentals
+- System administration labs
+
+---
+
+## 🤝 Connect With Me
+
+- GitHub: https://github.com/ReynoA
+- LinkedIn: https://www.linkedin.com/in/angel-reynoso-00359959/
+
