@@ -1,116 +1,151 @@
-# 🛠️ IT Help Desk Lab – osTicket (Ticketing System)
+# 🛠️ IT Support Portfolio – Help Desk, Networking & Security Labs
 
-> Performed incident triage, escalation, and resolution using a help desk ticketing system in a simulated production environment.
+> Hands-on IT support labs demonstrating incident management, ticketing systems, networking, and security concepts in a simulated production environment.
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project demonstrates hands-on experience with a help desk ticketing system using **osTicket** deployed on a Microsoft Azure virtual machine.
+This repository showcases multiple hands-on IT labs designed to simulate real-world IT support scenarios.
 
-I managed the full ticket lifecycle, including intake, prioritization, escalation, troubleshooting, and resolution—mirroring real-world IT support operations.
+Projects include:
+
+* Help desk ticketing and incident management (osTicket)
+* Network security and VPN configuration (ProtonVPN)
+* (Upcoming) Active Directory user and group management
 
 ---
 
 ## 🧰 Technologies Used
 
-* Microsoft Azure (Virtual Machine)
+* Microsoft Azure (Virtual Machines)
 * Windows 10
 * osTicket (Help Desk Ticketing System)
+* ProtonVPN
 * Remote Desktop Protocol (RDP)
 
 ---
 
-## 💼 Real-World Skills Applied
+# 🛠️ Project 1: Help Desk Ticketing System (osTicket)
 
-* Incident triage based on business impact
-* Priority escalation (Normal → Emergency)
-* SLA assignment and enforcement (Sev-A, Sev-B)
-* Department-based ticket routing
-* Role-based access control (RBAC)
-* Internal documentation (notes, updates)
-* Escalation to SysAdmin-level support
-* End-user communication and issue verification
+## 📌 Overview
+
+Deployed and configured an osTicket help desk system in Azure and managed the full ticket lifecycle, including triage, escalation, SLA enforcement, and resolution.
 
 ---
 
-## 🏗️ Lab Setup
+## 💼 Skills Demonstrated
 
-* Deployed a Windows virtual machine in Azure
-* Installed and configured osTicket
-* Created roles, departments, and teams
-* Configured SLA plans (Sev-A, Sev-B, Sev-C)
-* Set up users and agents with different permission levels
+* Incident triage and prioritization
+* SLA management (Sev-A, Sev-B, Sev-C)
+* Ticket escalation workflows
+* Role-based access control (RBAC)
+* Internal documentation and communication
+* End-user support and issue resolution
 
 ---
 
 ## 🚨 Incident Walkthrough: Banking System Outage
 
-### 🟢 1. Ticket Created
-
-User reported that the entire mobile/online banking system was down.
+### 🟢 Ticket Created
 
 ![Ticket Created](screenshots/tickets/01-created.png)
 
----
+### 🔴 Priority Escalated to Emergency
 
-### 🔴 2. Priority Escalated to Emergency
+![Priority](screenshots/tickets/03-priority.png)
 
-After confirming business impact, priority was raised to **Emergency**.
+### ⏱️ SLA Updated
 
-![Priority Update](screenshots/tickets/03-priority.png)
+![SLA](screenshots/tickets/04-sla.png)
 
----
-
-### ⏱️ 3. SLA Assigned
-
-SLA updated to **Sev-A (1 hour response time)**.
-
-![SLA Update](screenshots/tickets/04-sla.png)
-
----
-
-### 🔁 4. Escalated to SysAdmins
-
-Ticket routed to the **SysAdmins department** for advanced troubleshooting.
+### 🔁 Escalated to SysAdmins
 
 ![Escalation](screenshots/tickets/05-escalated.png)
 
+### 🛠️ Issue Resolved
+
+![Resolved](screenshots/tickets/07-resolved.png)
+
+### ✅ Ticket Closed
+
+![Closed](screenshots/tickets/08-closed.png)
+
 ---
 
-### 🛠️ 5. Issue Resolved
+## ⚙️ Additional Scenario: Adobe Reader Issue
 
-Root cause identified and system functionality restored.
+### 🟢 Ticket Created
 
-![Resolution](screenshots/tickets/07-resolved.png)
+![Adobe Created](screenshots/tickets/09-adobe-created.png)
 
----
+### 📝 Investigation
 
-### ✅ 6. Ticket Closed
+![Adobe Investigation](screenshots/tickets/10-adobe-investigation.png)
 
-Confirmed resolution with the user and closed the ticket.
+### 🔺 Priority Increased
 
-![Closed Ticket](screenshots/tickets/08-closed.png)
+![Adobe Priority](screenshots/tickets/11-adobe-priority-high.png)
+
+### ⏱️ SLA Updated
+
+![Adobe SLA](screenshots/tickets/12-adobe-sla.png)
+
+### 🔍 Root Cause Identified
+
+![Adobe Root Cause](screenshots/tickets/13-adobe-root-cause.png)
+
+### ✅ Ticket Closed
+
+![Adobe Closed](screenshots/tickets/14-adobe-closed.png)
 
 ---
 
 ## 📈 Outcome
 
-* Successfully restored service for a simulated critical outage
-* Demonstrated ability to prioritize and escalate incidents
+* Successfully handled multiple simulated incidents
+* Demonstrated escalation and prioritization skills
 * Completed full ticket lifecycle from intake to resolution
-* Applied real-world IT support workflows in a controlled environment
+* Applied real-world IT support workflows
+
+---
+
+# 🔐 Project 2: VPN Lab (Network Security)
+
+## 📌 Overview
+
+Configured a Virtual Private Network (VPN) using ProtonVPN within an Azure virtual machine to demonstrate secure traffic tunneling and geographic IP masking.
+
+---
+
+## 💼 Skills Demonstrated
+
+* VPN setup and configuration
+* IP address tracking and verification
+* Network traffic tunneling
+* Geolocation analysis
+* Secure remote connectivity
+
+---
+
+## 📈 Outcome
+
+* Successfully routed traffic through a VPN tunnel
+* Verified IP and geographic location changes
+* Demonstrated understanding of encrypted network traffic
+* Gained hands-on experience with network security concepts
 
 ---
 
 ## 🗂️ Repository Structure
 
 screenshots/
+├── tickets/
 ├── agents/
 ├── roles/
 ├── departments/
-├── tickets/
 ├── sla/
+└── vpn/
 
 ---
 
@@ -120,7 +155,7 @@ Currently expanding skills in:
 
 * Active Directory (user and group management)
 * Networking fundamentals
-* System administration labs
+* System administration
 
 ---
 
