@@ -53,11 +53,11 @@ Deployed and configured an osTicket help desk system in Azure and managed the fu
 
 ### 🔴 Priority Escalated to Emergency
 
-![Priority](screenshots/tickets/tickets/03-priority-updated.png)
+![Priority](screenshots/tickets/tickets/03-ticket-priority-updated.png)
 
 ### ⏱️ SLA Updated
 
-![SLA](screenshots/tickets/tickets/04-sla-set.png)
+![SLA](screenshots/tickets/tickets/04-ticket-sla-set.png)
 
 ### 🔁 Escalated to SysAdmins
 
