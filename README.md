@@ -1,137 +1,73 @@
-# 🛠️ IT Support Portfolio – Help Desk, Networking & Security Labs
+# IT Support Portfolio – Help Desk, Active Directory & Azure
 
-> Hands-on IT support labs demonstrating incident management, ticketing systems, networking, and security concepts in a simulated production environment.
+Hi, I'm Angel. I'm transitioning into IT and building hands-on experience through real-world labs focused on help desk operations, system administration, and cloud infrastructure.
 
----
-
-## 📌 Overview
-
-This repository showcases multiple hands-on IT labs designed to simulate real-world IT support scenarios.
-
-Projects include:
-
-* Help desk ticketing and incident management (osTicket)
-* Network security and VPN configuration (ProtonVPN)
-* (Upcoming) Active Directory user and group management
+This repository showcases practical IT projects demonstrating troubleshooting, ticket management, Active Directory, and Azure networking.
 
 ---
 
-## 🧰 Technologies Used
+## 🛠️ Skills Demonstrated
 
-* Microsoft Azure (Virtual Machines)
-* Windows 10
-* osTicket (Help Desk Ticketing System)
-* ProtonVPN
-* Remote Desktop Protocol (RDP)
-
----
-
-# 🛠️ Project 1: Help Desk Ticketing System (osTicket)
-
-## 📌 Overview
-
-Deployed and configured an osTicket help desk system in Azure and managed the full ticket lifecycle, including triage, escalation, SLA enforcement, and resolution.
+- Active Directory (Users, Groups, OUs, Domain Join)
+- Azure Virtual Machines & Virtual Networking
+- Windows Server Administration
+- DNS Configuration & Troubleshooting
+- Remote Desktop (RDP)
+- Network Security Groups (NSGs)
+- IT Troubleshooting Methodology
+- Ticketing Systems (osTicket)
 
 ---
 
-## 💼 Skills Demonstrated
+## 📂 Featured Projects
 
-* Incident triage and prioritization
-* SLA management (Sev-A, Sev-B, Sev-C)
-* Ticket escalation workflows
-* Role-based access control (RBAC)
-* Internal documentation and communication
-* End-user support and issue resolution
+### 🧾 osTicket Help Desk Lab
+Simulated a real-world help desk environment using osTicket. Created and resolved support tickets, managed priorities and SLAs, and documented troubleshooting steps.
 
----
+**Key Highlights:**
+- Ticket lifecycle management (Open → In Progress → Resolved)
+- SLA and priority handling
+- End-user communication
+- Troubleshooting real-world scenarios
 
-## 🚨 Incident Walkthrough: Banking System Outage
-
-### 🟢 Ticket Created
-
-![Ticket Created](screenshots/tickets/tickets/01-ticket-created-banking-outage.png)
-
-### 🔴 Priority Escalated to Emergency
-
-![Priority](screenshots/tickets/tickets/03-ticket-priority-updated.png)
-
-### ⏱️ SLA Updated
-
-![SLA](screenshots/tickets/tickets/04-ticket-sla-set.png)
-
-### 🔁 Escalated to SysAdmins
-
-![Escalation](screenshots/tickets/tickets/06-ticket-escalated.png)
-
-### 🛠️ Issue Resolved
-
-![Resolved](screenshots/tickets/tickets/08-ticket-resolution.png)
-
-### ✅ Ticket Closed
-
-![Closed](screenshots/tickets/tickets/09-ticket-closed.png)
+🔗 [View Project](./osticket-lab)
 
 ---
 
-## 📈 Outcome
+### 🖥️ Active Directory Lab (Azure)
+Built a full Active Directory environment in Microsoft Azure, including domain controller setup, client machine integration, DNS configuration, and user management.
 
-* Successfully handled multiple simulated incidents
-* Demonstrated escalation and prioritization skills
-* Completed full ticket lifecycle from intake to resolution
-* Applied real-world IT support workflows
+**Key Highlights:**
+- Deployed Windows Server as Domain Controller
+- Configured Active Directory Domain Services (AD DS)
+- Created Organizational Units (OUs) and users
+- Joined client VM to domain
+- Configured DNS for internal communication
+- Verified connectivity and domain functionality
 
----
-
-# 🔐 Project 2: VPN Lab (Network Security)
-
-## 📌 Overview
-
-Configured a Virtual Private Network (VPN) using ProtonVPN within an Azure virtual machine to demonstrate secure traffic tunneling and geographic IP masking.
+🔗 [View Project](./active-directory-lab)
 
 ---
 
-## 💼 Skills Demonstrated
+## 📸 What These Projects Show
 
-* VPN setup and configuration
-* IP address tracking and verification
-* Network traffic tunneling
-* Geolocation analysis
-* Secure remote connectivity
-
----
-
-## 📈 Outcome
-
-* Successfully routed traffic through a VPN tunnel
-* Verified IP and geographic location changes
-* Demonstrated understanding of encrypted network traffic
-* Gained hands-on experience with network security concepts
+Each project includes:
+- Step-by-step documentation
+- Real configuration screenshots
+- Troubleshooting workflows
+- Verified results (ping tests, domain join, ticket resolution)
 
 ---
 
-## 🗂️ Repository Structure
+## 🎯 Career Goal
 
-screenshots/
-├── tickets/
-├── agents/
-├── roles/
-├── departments/
-├── sla/
-└── vpn/
+My goal is to secure an entry-level IT Support / Help Desk role and continue developing into system administration and cloud engineering.
 
 ---
 
-## 🎯 Next Steps
+## 📫 Contact
 
-Currently expanding skills in:
-
-* Active Directory (user and group management)
-* Networking fundamentals
-* System administration
+- GitHub: https://github.com/ReynoA
+- LinkedIn: https://www.linkedin.com/in/angel-reynoso-00359959/
 
 ---
-
-## 🤝 Connect With Me
-
-* GitHub: https://github.com/ReynoA
-* LinkedIn: https://www.linkedin.com/in/angel-reynoso-00359959/
