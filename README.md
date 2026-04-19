@@ -1,71 +1,115 @@
-# IT Support Portfolio – Help Desk, Active Directory & Azure
+# 👋 Hi, I'm Angel
 
-Hi, I'm Angel. I'm transitioning into IT and building hands-on experience through real-world labs focused on help desk operations, system administration, and cloud infrastructure.
+I’m an aspiring IT Support Specialist actively building hands-on experience with real-world systems, including Active Directory, networking, and help desk operations. I’ve developed and documented practical labs that simulate common IT scenarios such as user account management, system troubleshooting, and security policy enforcement.
 
-This repository showcases practical IT projects demonstrating troubleshooting, ticket management, Active Directory, and Azure networking.
-
----
-
-## 🛠️ Skills Demonstrated
-
-- Active Directory (Users, Groups, OUs, Domain Join)
-- Azure Virtual Machines & Virtual Networking
-- Windows Server Administration
-- DNS Configuration & Troubleshooting
-- Remote Desktop (RDP)
-- Network Security Groups (NSGs)
-- IT Troubleshooting Methodology
-- Ticketing Systems (osTicket)
+My focus is on developing job-ready skills by working through real environments — not just theory — and documenting each step as if I were operating in a production setting.
 
 ---
 
-## 📂 Featured Projects
+# 🛠️ IT Support Portfolio – Help Desk, Networking & Active Directory
 
-### 🧾 osTicket Help Desk Lab
-Simulated a real-world help desk environment using osTicket. Created and resolved support tickets, managed priorities and SLAs, and documented troubleshooting steps.
+## 📌 Overview
 
-**Key Highlights:**
-- Ticket lifecycle management (Open → In Progress → Resolved)
-- SLA and priority handling
-- End-user communication
-- Troubleshooting real-world scenarios
-
-🔗 [View Project](./osticket-lab)
+This repository showcases hands-on IT labs designed to mirror real-world support scenarios. Each project demonstrates practical skills used in help desk and junior system administrator roles, including troubleshooting, user management, and system configuration.
 
 ---
 
-### 🖥️ Active Directory Lab (Azure)
-Built a full Active Directory environment in Microsoft Azure, including domain controller setup, client machine integration, DNS configuration, and user management.
+## 💼 Projects
 
-**Key Highlights:**
-- Deployed Windows Server as Domain Controller
-- Configured Active Directory Domain Services (AD DS)
-- Created Organizational Units (OUs) and users
-- Joined client VM to domain
-- Configured DNS for internal communication
-- Verified connectivity and domain functionality
+### 🎫 Help Desk Ticket Lab
 
-🔗 [View Project](./active-directory-lab)
+Simulated IT support tickets and real-world troubleshooting workflows.
+
+**Key Skills:**
+
+* Ticket documentation and resolution
+* Troubleshooting software and connectivity issues
+* Customer-focused problem solving
+
+📂 Folder: `/osticket-lab`
 
 ---
 
-## 📸 What These Projects Show
+### 🏢 Active Directory Lab
+
+Built a complete Active Directory environment in Microsoft Azure.
+
+**Key Skills:**
+
+* Domain Controller setup (Windows Server)
+* User and group management
+* Organizational Units (OUs)
+* Domain joining (client machines)
+
+📂 Folder: `/active-directory-lab`
+
+---
+
+### 👤 Active Directory User Management & Security Lab
+
+Focused on user account administration and enforcing security policies using Group Policy.
+
+**Key Skills:**
+
+* Account lockout policy configuration
+* Group Policy Management (GPO)
+* Unlocking and disabling user accounts
+* Troubleshooting login issues
+* Security log analysis using Event Viewer
+
+**Highlights:**
+
+* Simulated failed login attempts to trigger account lockout
+* Managed user account recovery (unlock/reset)
+* Verified authentication events using Windows Security logs
+
+📂 Folder: `/active-directory-user-management-lab`
+
+---
+
+## 🛠️ Technologies Used
+
+* Microsoft Azure
+* Windows Server
+* Active Directory Domain Services (AD DS)
+* Group Policy Management
+* Remote Desktop Protocol (RDP)
+* osTicket (Help Desk System)
+
+---
+
+## 🎯 Skills Demonstrated
+
+* Active Directory Administration
+* Identity & Access Management (IAM)
+* Group Policy Configuration
+* Troubleshooting & Root Cause Analysis
+* User Account Lifecycle Management
+* Security Monitoring & Log Analysis
+
+---
+
+## 📸 Documentation
 
 Each project includes:
-- Step-by-step documentation
-- Real configuration screenshots
-- Troubleshooting workflows
-- Verified results (ping tests, domain join, ticket resolution)
+
+* Step-by-step configuration walkthroughs
+* Screenshots of key actions and results
+* Simulated real-world troubleshooting scenarios
 
 ---
 
-## 🎯 Career Goal
+## 🚀 Goals
 
-My goal is to secure an entry-level IT Support / Help Desk role and continue developing into system administration and cloud engineering.
+* Transition into an IT Support / Help Desk role
+* Continue building hands-on experience with enterprise tools
+* Expand into networking and system administration
 
 ---
 
-## 📫 Contact
+## 📬 Contact
+
+Feel free to connect with me on LinkedIn or reach out for opportunities in IT support and system administration.
 
 - GitHub: https://github.com/ReynoA
 - LinkedIn: https://www.linkedin.com/in/angel-reynoso-00359959/
