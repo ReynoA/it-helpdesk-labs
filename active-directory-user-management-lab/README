@@ -1,46 +1,153 @@
-# Active Directory User Management Lab
+# 👤 Active Directory User Management Lab
 
-This lab demonstrates common help desk tasks involving user account management in Active Directory, including account lockouts, password resets, and account control.
+## 📌 Overview
 
----
-
-## 🛠️ Tasks Performed
-
-### Account Lockout Testing
-- Attempted multiple failed logins
-- Configured Group Policy lockout threshold
-- Observed account lockout behavior
-
-### Account Recovery
-- Unlocked user account
-- Reset user password
-- Verified successful login
-
-### Account Management
-- Disabled user account
-- Tested login failure
-- Re-enabled account
-- Verified access restored
-
-### Log Analysis
-- Reviewed security logs on Domain Controller
-- Observed authentication events on client machine
+This lab demonstrates managing user accounts and enforcing security policies in an Active Directory environment. It focuses on account lockout policies, troubleshooting login issues, and administrative actions such as unlocking and disabling accounts.
 
 ---
 
-## 💡 Skills Demonstrated
+## 🛠️ Technologies Used
 
-- Active Directory User Management
-- Group Policy Configuration
-- Account Lockout Policies
-- Password Reset Procedures
-- Troubleshooting Login Issues
-- Event Viewer Log Analysis
+* Microsoft Azure (Virtual Machines)
+* Windows Server (Domain Controller)
+* Active Directory Domain Services (AD DS)
+* Group Policy Management
+* Remote Desktop Protocol (RDP)
+* Event Viewer
+
+---
+
+## 🎯 Objectives
+
+* Configure account lockout policies using Group Policy
+* Simulate failed login attempts to trigger account lockout
+* Unlock and manage user accounts in Active Directory
+* Verify security events using Event Viewer
+
+---
+
+## 🧱 Environment Setup
+
+* Domain: `mydomain.com`
+* Domain Controller: `DC-1`
+* Client Machine: `Client-1`
+* Admin Account: `jane_admin`
+
+---
+
+## ⚙️ Steps Performed
+
+### 1. Open Group Policy Management
+
+* Accessed **Group Policy Management Console (GPMC)**
+* Navigated to:
+
+  ```
+  Forest > Domains > mydomain.com > Default Domain Policy
+  ```
+
+---
+
+### 2. Edit Default Domain Policy
+
+* Opened the policy editor
+* Navigated to:
+
+  ```
+  Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy
+  ```
+
+---
+
+### 3. Configure Account Lockout Policy
+
+Configured the following settings:
+
+| Policy Setting                      | Value              |
+| ----------------------------------- | ------------------ |
+| Account lockout threshold           | 5 invalid attempts |
+| Account lockout duration            | 30 minutes         |
+| Reset account lockout counter       | 10 minutes         |
+| Allow administrator account lockout | Enabled            |
+
+---
+
+### 4. Apply Group Policy
+
+* Ran the following command on the client machine:
+
+  ```bash
+  gpupdate /force
+  ```
+* Confirmed successful policy update
+
+---
+
+### 5. Simulate Account Lockout
+
+* Attempted multiple failed logins via RDP
+* Triggered account lockout after exceeding threshold
+* Received security warning preventing login
+
+---
+
+### 6. Unlock User Account
+
+* Opened **Active Directory Users and Computers**
+* Navigated to affected user
+* Enabled:
+
+  ```
+  Unlock account
+  ```
+* Restored user access
+
+---
+
+### 7. Disable User Account
+
+* Disabled a user account in Active Directory
+* Verified account status change
+
+---
+
+### 8. Verify Security Logs
+
+* Opened **Event Viewer**
+* Navigated to:
+
+  ```
+  Windows Logs > Security
+  ```
+* Observed:
+
+  * Failed login attempts
+  * Account lockout events
+  * Audit logs (Event ID 4625, 4740)
+
+---
+
+## 🧠 Key Takeaways
+
+* Group Policy enforces security across domain environments
+* Account lockout policies help prevent brute-force attacks
+* Help desk tasks often involve unlocking and managing user accounts
+* Event Viewer is essential for troubleshooting authentication issues
 
 ---
 
 ## 📸 Screenshots
 
-See `/screenshots` folder for full step-by-step process.
+Screenshots documenting each step are included in the `/screenshots` folder.
+
+---
+
+## 🚀 Skills Demonstrated
+
+* Active Directory Administration
+* Group Policy Configuration
+* Identity & Access Management (IAM)
+* Troubleshooting Authentication Issues
+* Security Monitoring & Log Analysis
 
 ---
