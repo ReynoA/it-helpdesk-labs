@@ -1,1 +1,46 @@
+# Active Directory User Management Lab
 
+This lab demonstrates common help desk tasks involving user account management in Active Directory, including account lockouts, password resets, and account control.
+
+---
+
+## 🛠️ Tasks Performed
+
+### Account Lockout Testing
+- Attempted multiple failed logins
+- Configured Group Policy lockout threshold
+- Observed account lockout behavior
+
+### Account Recovery
+- Unlocked user account
+- Reset user password
+- Verified successful login
+
+### Account Management
+- Disabled user account
+- Tested login failure
+- Re-enabled account
+- Verified access restored
+
+### Log Analysis
+- Reviewed security logs on Domain Controller
+- Observed authentication events on client machine
+
+---
+
+## 💡 Skills Demonstrated
+
+- Active Directory User Management
+- Group Policy Configuration
+- Account Lockout Policies
+- Password Reset Procedures
+- Troubleshooting Login Issues
+- Event Viewer Log Analysis
+
+---
+
+## 📸 Screenshots
+
+See `/screenshots` folder for full step-by-step process.
+
+---
